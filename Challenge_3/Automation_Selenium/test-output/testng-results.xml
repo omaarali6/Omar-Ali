@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-24T19:58:33 EET" name="Default suite" finished-at="2023-11-24T19:58:42 EET" duration-ms="9208">
+    <groups>
+    </groups>
+    <test started-at="2023-11-24T19:58:33 EET" name="Default test" finished-at="2023-11-24T19:58:42 EET" duration-ms="9208">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:27 EET" name="startDriver" finished-at="2023-11-24T19:58:33 EET" duration-ms="5222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:33 EET" name="loginTest" data-provider="ExceldataReader" finished-at="2023-11-24T19:58:34 EET" duration-ms="487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="takeScreenshotOnFail(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:34 EET" name="takeScreenshotOnFail" finished-at="2023-11-24T19:58:34 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFail -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:34 EET" name="loginTest" data-provider="ExceldataReader" finished-at="2023-11-24T19:58:34 EET" duration-ms="398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:34 EET" name="loginTest" data-provider="ExceldataReader" finished-at="2023-11-24T19:58:35 EET" duration-ms="598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="takeScreenshotOnFail(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:34 EET" name="takeScreenshotOnFail" finished-at="2023-11-24T19:58:34 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFail -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:35 EET" name="loginTest" data-provider="ExceldataReader" finished-at="2023-11-24T19:58:40 EET" duration-ms="5401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="takeScreenshotOnFail(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:35 EET" name="takeScreenshotOnFail" finished-at="2023-11-24T19:58:35 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFail -->
+        <test-method is-config="true" signature="takeScreenshotOnFail(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:40 EET" name="takeScreenshotOnFail" finished-at="2023-11-24T19:58:40 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFail -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:40 EET" name="loginTest" data-provider="ExceldataReader" finished-at="2023-11-24T19:58:41 EET" duration-ms="602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="takeScreenshotOnFail(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:41 EET" name="takeScreenshotOnFail" finished-at="2023-11-24T19:58:41 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFail -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:41 EET" name="loginTest" data-provider="ExceldataReader" finished-at="2023-11-24T19:58:41 EET" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="takeScreenshotOnFail(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:41 EET" name="takeScreenshotOnFail" finished-at="2023-11-24T19:58:41 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFail -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:41 EET" name="loginTest" data-provider="ExceldataReader" finished-at="2023-11-24T19:58:41 EET" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Omar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="takeScreenshotOnFail(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:41 EET" name="takeScreenshotOnFail" finished-at="2023-11-24T19:58:41 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFail -->
+        <test-method signature="loginEmpty()[pri:2, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:41 EET" name="loginEmpty" finished-at="2023-11-24T19:58:42 EET" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmpty -->
+        <test-method is-config="true" signature="takeScreenshotOnFail(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:42 EET" name="takeScreenshotOnFail" finished-at="2023-11-24T19:58:42 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginEmpty status=SUCCESS method=LoginTest.loginEmpty()[pri:2, instance:Tests.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFail -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.LoginTest@6d4d66d2]" started-at="2023-11-24T19:58:42 EET" name="stopDriver" finished-at="2023-11-24T19:58:43 EET" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
